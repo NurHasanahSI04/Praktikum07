@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(img_kantor.jpg);
+        }
+        label{
+            font-weight: bold;
+            display: block;
+        }
+
+        .form-group{
+            margin: 10px
+        }
+        .form-container{
+            background-color:rgba(255, 255, 255, 0.632);
+            border-radius: 10%;
+            box-shadow: 0 0 10px black;
+            padding: 30px;
+            width: 500px;
+            margin: 100px auto;
+            
+        }
+        body{
+            font-family: georgia;
+        }
+        h2{
+            text-align: center;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>FORM ENTRY DATA PEGAWAI</h2>
+        <form method="post" action="">
+        <table>
+            <tr>
+            <div class="form-group">
+             <td><label for="NIK">NIK</label></td>
+             <td>:</td>
+             <td><input type="text" id="nama" name="" style="width: 200px;"></td>
+            </div>
+            </tr>
+
+            <tr>
+            <div class="form-group">
+            <td><label for="nama">Nama</label></td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="" style="width: 200px;"></td>
+            </div>
+            </tr>
+
+            <tr>
+            <div class="form-group">
+            <td><label for="Tlahir">Tempat Lahir</label></td>
+            <td>:</td>
+            <td><input type="text" id="Tlahir" name=""style="width: 200px;"></td>
+            </div>
+            </tr>
+
+            <tr>
+            <div class="form-group">
+            <td><label for="Talahir">Tanggal Lahir</label></td>
+            <td>:</td>
+            <td><input type="text" id="Talahir" name=""style="width: 200px;"></td>
+            </div>
+            </tr>
+
+            <tr>
+                <div class="form-group">
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td><textarea id="text" name="alamat" rows="3" cols="20" style="width: 200px;"></textarea></td>
+                </div>
+                </tr>
+    
+                <tr>
+                    <div class="form-group">
+                    <td><label for="notelp">No.Telepon</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="notelp" name="" style="width: 200px;"></td>
+                    </div>
+                    </tr>
+                <tr>
+                    <div class="form-group">
+                    <td><label for="notelp">Jabatan</label></td>
+                    <td>:</td>
+                    <td><select name="jabatan" id="jabatan" style="width: 200px;">
+                        <option value="manajer" style="width: 200px;">manajer</option>
+                        <option value="karyawan" style="width: 200px;">karyawan</option>
+                      </select></td>
+                    </div>
+                    </tr>
+
+                <tr>
+                    <div class="form-group">
+                    <td><label for="status" >Status</label></td>
+                    <td>:</td>
+                    <td><select name="status" id="jabatan" style="width: 200px;">
+                        <option value="Aktif">Aktif</option>
+                        <option value="tidakaktif">Tidak Aktif</option>
+                        </select></td>
+                    </div>
+                    </tr>
+
+                </table>
+                <br>
+                        <button style="background-color: blue;border-color:black;color:white" type="submit">Simpan</button>
+                        <button style="background-color:red;border-color:black;color:white" type="reset">Batal</button>
+
+        </form>
+    </div>
+</body>
+</html>
